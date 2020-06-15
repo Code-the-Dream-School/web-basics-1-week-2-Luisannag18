@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*These are listed in the order they appear in the html and since my mainpage is very simple, I only reused a class twice*/
+.header-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: lightgray;  
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 150px;
+  height: 50px;
+}
+
+nav ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.nav-menu {
+  float: left;
+  margin-left: 400px;
+  word-spacing: 10px;
+}
+
+.nav-social {
+  float: right;
+  margin-right: 10px;
+}
+
+.social-icons {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+  min-height: 100%;
+  overflow: auto;
+  padding-bottom: 100px;
+  height: auto;
+}
+main {
+  color: white;
+  margin-top: 10%;
+  margin-left: 20%;
+  text-align: left;
+}
+
+main p {
+  margin-top: 50px;
+  margin-right: 50%;
+}
+
+#profile-picture {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 20%;
+}
+
+#footer {
+  color: white;
+  text-align: right;
+  position: relative;
+  margin-top: 10px;
+  clear: both;
+}
+
+.button {
+  border-radius: 20px;
+  position: fixed;
+  margin-top: 10px;
+  left: 50%;
+  right: 50%;
+}
